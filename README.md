@@ -7,7 +7,7 @@ This is a Laravel application that provides a REST API for fetching random quote
 1. Clone the repository
 2. Install dependencies: `composer install`
 3. Copy the `.env.example` file to `.env` and update the `APP_KEY` value: `php artisan key:generate`
-4. Update API_TOKEN in the `.env` file to whatever you would like
+4. Update `API_TOKEN` in the `.env` file to whatever you would like
 5. Auth header required: `Authorization: Bearer <API_TOKEN>`
 
 ## Running the Application
