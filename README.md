@@ -8,12 +8,12 @@ This is a Laravel application that provides a REST API for fetching random quote
 2. Install dependencies: `composer install`
 3. Copy the `.env.example` file to `.env` and update the `APP_KEY` value: `php artisan key:generate`
 4. Update `API_TOKEN` in the `.env` file to whatever you would like
-5. Auth header required: `Authorization: Bearer <API_TOKEN>`
 
 ## Running the Application
 
 1. Start the development server: `php artisan serve`
-2. The API endpoints are available at:
+2. Auth header required: `Authorization: Bearer <API_TOKEN>`
+3. The API endpoints are available at:
     - `http://localhost:8000/api/quotes` (GET) - Returns 5 random quotes
     - `http://localhost:8000/api/quotes/refresh` (GET) - Refreshes the quotes cache and returns 5 new random quotes
 
